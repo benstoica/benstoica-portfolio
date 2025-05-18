@@ -25,7 +25,7 @@ const Contact = () => {
         e.target as HTMLFormElement,
         import.meta.env.VITE_PUBLIC_KEY
       )
-      .then((res) => {
+      .then(() => {
         alert("Message Sent!");
         setFormData({
           name: "",
@@ -33,9 +33,7 @@ const Contact = () => {
           message: "",
         });
       })
-      .catch((error: Error) =>
-        alert("Unable to send message. Please try again later.")
-      );
+      .catch(() => alert("Unable to send message. Please try again later."));
   };
   return (
     <section
