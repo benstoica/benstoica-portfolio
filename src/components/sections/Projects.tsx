@@ -68,7 +68,8 @@ const Projects = () => {
                 <h3 className="text-xl font-bold mb-2">Evolve Gym</h3>
                 <p className="text-gray-400 mb-4">
                   A new type of gym, one that will help you reach your goals
-                  like never before.
+                  like never before. Built with React and TypeScript, styled
+                  with TailwindCSS.
                 </p>
               </div>
               <div className="mt-auto">
