@@ -60,7 +60,7 @@ const About = () => {
               <a
                 className="icon"
                 target="_blank"
-                href="https://github.com/benstoica"
+                href="https://www.linkedin.com/in/benstoica"
                 rel="noreferrer">
                 <BsLinkedin className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:cursor-pointer text-blue-500 hover:text-white" />
               </a>
