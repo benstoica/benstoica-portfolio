@@ -24,7 +24,7 @@ const Contact = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target as HTMLFormElement,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then(() => {
         alert("Message Sent!");
@@ -99,7 +99,7 @@ const Contact = () => {
           </form>
           <a
             href="
-https://github.com/benstoica/benstoica-resume/blob/main/Ben%20Stoica%20-%20Resume.pdf">
+https://github.com/benstoica/benstoica-resume/raw/refs/heads/main/Ben%20Stoica%20-%20Resume.pdf">
             <button className="w-full mt-5 text-white rounded border-[1px] flex items-center justify-center py-3 px-6 font-medium hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
               <BsFileEarmarkPdf className="mr-2" /> Download Resume
             </button>
