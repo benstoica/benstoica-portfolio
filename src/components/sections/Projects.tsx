@@ -101,6 +101,47 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            <div className="p-6 rounded-xl border border-white/10 flex flex-col">
+              <div className="flex-1">
+                <h3 className="text-xl font-bold mb-2">Sportsball (WebSockets)</h3>
+                <p className="text-gray-400 mb-4">
+                A backend service for managing sports matches and their live commentary, with both REST APIs and realtime WebSocket updates focused on WS patterns 
+                (heartbeat, backpressure, message validation, subscriptions).
+                </p>
+                <div className="mt-auto">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {[
+                      "Arcjet",
+                      "APM (Application Performance Management)",
+                      "drizzle-orm",
+                      "Express",
+                      "JavaScript",
+                      "Node",
+                      "PostgreSQL",
+                      "WebSockets",
+                      "ws",
+                      "Zod",
+                    ].map((skill) => (
+                      <span
+                        key={skill}
+                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-6 ml-2 ">
+                  <a
+                    className="icon"
+                    target="_blank"
+                    href="https://github.com/benstoica/sportsball"
+                    rel="noreferrer">
+                    <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:cursor-pointer text-white/90 hover:text-white" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
