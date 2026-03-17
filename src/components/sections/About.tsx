@@ -42,11 +42,9 @@ const About = () => {
               cutting-edge software. I'm always self-teaching Software
               Development through several online courses. I look forward to
               developing my career and skill-set further in every role I take
-              and I enjoy learning every facet of the development life cycle, as
-              my long-term career goal is to become a Full Stack Developer. I am
+              I enjoy learning and contributing to every facet of the development life cycle. I am 
               a fast, eager learner of new technologies and techniques; I'm
-              constantly looking for new things to learn to increase my value to
-              employers.
+              constantly looking for new things to learn.
             </p>
 
             <div className="flex justify-center mb-6 gap-6">
@@ -131,7 +129,10 @@ const About = () => {
               <div className="space-y-4 text-gray-300 ">
                 <div>
                   <h4 className="font-semibold">RPM Freight Systems</h4>
+                  <p className="text-sm">Engineering Manager (current)</p>
                   <p className="text-sm">Senior Software Engineer</p>
+                  <p className="text-sm">UI Developer</p>
+
                 </div>
 
                 <div>
